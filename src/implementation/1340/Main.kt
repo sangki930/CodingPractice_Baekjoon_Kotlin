@@ -10,7 +10,7 @@ fun main() {
 
     var br = BufferedReader(InputStreamReader(System.`in`))
     var input = br.readLine()
-    // May 10, 1981 00:31
+
     var arr : List<String> = input.split(" ")
     var day = arr[1].replace(",","").toInt()
     val monthMap = mapOf(
