@@ -32,7 +32,6 @@ fun main() {
     val sb = StringBuilder()
 
     sb.append(arr[0]).append('\n')
-
     for (i in 1 until N) {
         // 중복되지 않는 단어만 출력
         if (arr[i] != arr[i - 1]) {
