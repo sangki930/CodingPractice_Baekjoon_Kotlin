@@ -8,7 +8,6 @@ fun main() {
     var input = sc.nextInt()
     var i = 6 + 1
     var answer = 0
-
     while (i-- > 0) {
         // println("i의값 : $i")
         if (input / (1 shl i) == 0) {
